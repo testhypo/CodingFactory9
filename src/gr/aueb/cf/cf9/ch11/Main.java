@@ -4,6 +4,10 @@ package gr.aueb.cf.cf9.ch11;
 public class Main {
 
     public static void main(String[] args) {
+
+        Product milk = new Product(1L, "Milk A", "Light Milk", 1.5, 2, true);
+        Product juice = new Product(2L, "Amita Orange", "Orange juice", 3, 40, true);
+
         int price;
 
         User user = new User();
