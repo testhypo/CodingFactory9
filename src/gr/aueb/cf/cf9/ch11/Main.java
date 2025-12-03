@@ -1,12 +1,6 @@
 package gr.aueb.cf.cf9.ch11;
 
-/**
- * Java Bean.
- * Data class that has
- *  - private fields
- *  - default constructor
- *  - getters and setters with conventions
- */
+
 public class Main {
 
     public static void main(String[] args) {

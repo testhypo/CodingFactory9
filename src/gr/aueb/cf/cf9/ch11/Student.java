@@ -1,5 +1,12 @@
 package gr.aueb.cf.cf9.ch11;
 
+/**
+ * Java Bean.
+ * Data class that has
+ *  - private fields
+ *  - default constructor
+ *  - getters and setters with conventions
+ */
 public class Student {
     private static int studentsCount; // default value is 0
 
