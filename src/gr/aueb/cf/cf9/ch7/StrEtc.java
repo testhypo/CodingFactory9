@@ -1,0 +1,27 @@
+package gr.aueb.cf.cf9.ch7;
+
+public class StrEtc {
+
+    public static void main(String[] args) {
+
+        // Traverse a string as an array
+        String s = "Coding Factory";
+
+        for (char ch : s.toCharArray()) {
+            System.out.print(ch + " ");
+        }
+        System.out.println("\u2764");
+
+        // Replace
+        String firstname = "Maria-Helen";
+        String simplename = firstname.replace("-", " ");
+
+        // Concat
+        String lastname = "Smith";
+        String fullName1 = firstname + " " + lastname;
+        String fullName2 = firstname.concat(" ").concat(lastname);
+    }
+
+}
+
+
