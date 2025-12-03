@@ -8,6 +8,8 @@ public class Main {
         Product milk = new Product(1L, "Milk A", "Light Milk", 1.5, 2, true);
         Product juice = new Product(2L, "Amita Orange", "Orange juice", 3, 40, true);
 
+        Customer customer = new Customer();
+
         int price;
 
         User user = new User();
