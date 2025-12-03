@@ -4,6 +4,14 @@ package gr.aueb.cf.cf9.ch11;
 public class Main {
 
     public static void main(String[] args) {
+        int price;
+
+        User user = new User();
+        User andreas22 = new User(1L, "Andreas", "Papadopoulos", "andrew", "12345", true);
+
+        System.out.println(andreas22.getUsername());
+        System.out.println(andreas22.isActive());
+
         Student student = new Student();
         Student alice = new Student();
         Student bob = new Student();
