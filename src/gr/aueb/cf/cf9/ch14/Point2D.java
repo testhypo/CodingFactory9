@@ -32,4 +32,9 @@ public class Point2D extends Point {
     public void setY(double y) {
         this.y = y;
     }
+
+    @Override
+    public String toString() {
+        return "(" + getX() + ", " + y + ")";
+    }
 }
