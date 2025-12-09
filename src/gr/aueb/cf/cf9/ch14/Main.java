@@ -11,12 +11,20 @@ public class Main {
         p2.movePlus10();
         p3.movePlusOne();
 
-        System.out.println(p1.toString());
-        System.out.println(p2);
-        System.out.println(p3);
+//        System.out.println(p1.toString());
+//        System.out.println(p2);
+//        System.out.println(p3);
+
+        doPrint(p1);
+        doPrint(p2);
+        doPrint(p3);
     }
 
     public static void doMovePlus10(Point p) {
         p.movePlus10();         // late binding
+    }
+
+    public static void doPrint(Point p) {
+        System.out.println(p);
     }
 }
