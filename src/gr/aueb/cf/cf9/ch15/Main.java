@@ -13,4 +13,7 @@ public class Main {
     public static void doSpeak(ISpeakable iSpeakable) {
         iSpeakable.speak();
     }
+
+
+
 }
