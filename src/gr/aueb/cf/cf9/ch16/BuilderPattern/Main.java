@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.ch16;
+package gr.aueb.cf.cf9.ch16.BuilderPattern;
 
 public class Main {
 
