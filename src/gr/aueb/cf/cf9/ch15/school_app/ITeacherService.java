@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.ch15.schoolApp;
+package gr.aueb.cf.cf9.ch15.school_app;
 
 /**
  * Provides most common CRUD operations for Teachers.
