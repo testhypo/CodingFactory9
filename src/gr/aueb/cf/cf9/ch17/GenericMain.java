@@ -6,8 +6,8 @@ public class GenericMain {
         GenericNode<String> strNode = new GenericNode<>();
         GenericNode<Double> doubleNode = new GenericNode<>();
         //In generics, we can't use primitives as parametric types
+        var intNode = new GenericNode<Integer>();
 
-        var intNode = new GenericNode<>();
         doubleNode.setValue(10.5);
         strNode.setValue("Hello");
 
