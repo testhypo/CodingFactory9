@@ -7,7 +7,8 @@ public class FindMax {
         int b = 789;
         int c = 49;
 
-        System.out.printf("max(%d, %d, %d) = %d", a, b, c, findMax(a, b, c));
+        System.out.printf("max(%d, %d, %d) = %d",
+                a, b, c, findMax(a, b, c));
     }
 
     public static int findMax(int a, int b, int c) {
