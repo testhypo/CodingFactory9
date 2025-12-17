@@ -11,10 +11,7 @@ public class DoublyLinkedList<T> {
         tmp.setPrev(null);
 
         if (isEmpty()) tail = tmp;
-        else {
-            head.setPrev(tmp);
-            if (head.getNext() == null) tail = head;
-        }
+        else head.setPrev(tmp);
 
         head = tmp;
     }
