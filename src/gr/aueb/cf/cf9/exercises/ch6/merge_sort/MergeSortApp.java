@@ -1,6 +1,6 @@
 package gr.aueb.cf.cf9.exercises.ch6.merge_sort;
 
-public class MergeSort {
+public class MergeSortApp {
 
     public static void main(String[] args) {
         int[] arr = new int[] { 5, 3, 7, 4, 6, 1, 2};
