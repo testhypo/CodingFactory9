@@ -27,17 +27,17 @@ public class CaesarCipher {
     }
 
     public static String decrypt(String s, int key) {
-        StringBuilder cipher = new StringBuilder();
+        StringBuilder decipher = new StringBuilder();
 
         for (int ch : s.toCharArray()) {
             if (ch >= 'a' && ch <= 'z') {
-                cipher.append((char) ('a' + Math.floorMod(ch - key - 'a', 26)));
+                decipher.append((char) ('a' + Math.floorMod(ch - key - 'a', 26)));
             } else if  (ch >= 'A' && ch <= 'Z') {
-                cipher.append((char) ('A' + Math.floorMod(ch - key - 'A', 26)));
+                decipher.append((char) ('A' + Math.floorMod(ch - key - 'A', 26)));
             } else {
-                cipher.append((char) ch);
+                decipher.append((char) ch);
             }
         }
-        return cipher.toString();
+        return decipher.toString();
     }
 }
